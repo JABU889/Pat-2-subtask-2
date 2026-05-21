@@ -74,4 +74,20 @@ int main() {
     cout << "\nTranslated Morse Code:" << endl;
     cout << "--------------------------------------" << endl;
 
+    cout << "\nTranslated Morse Code:" << endl;
+    cout << "--------------------------------------" << endl;
+
+    // Loop through every character in the message
+    for (size_t i = 0; i < message.length(); i++) {
+        cout << getMorseCode(message[i]) << " ";
+    }
+
+    cout << "\n--------------------------------------" << endl;
+    cout << "Translation completed successfully." << endl;
+
+    return 0;
+}
+ 
+
+
     
