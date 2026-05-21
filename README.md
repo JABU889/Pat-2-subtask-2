@@ -69,6 +69,7 @@ int main() {
     
     // getline is the best way to get a full sentence including spaces
     getline(cin, message);
+    
 
     cout << "\nTranslated Morse Code:" << endl;
     cout << "--------------------------------------" << endl;
